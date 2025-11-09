@@ -6,7 +6,7 @@ Incidents API
 git clone https://github.com/tuvasco/incidents_api.git
 cd incidents_api
 python -m venv venv
-source venv/bin/activate     # Windows: venv\Scripts\activate
+venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
@@ -39,4 +39,5 @@ PATCH /incidents/1
 
 📄 База данных создаётся автоматически (SQLite).
 Статусы: new, in_progress, resolved, closed.
+
 
