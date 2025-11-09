@@ -3,7 +3,7 @@ Incidents API
 Мини-сервис для учёта инцидентов (FastAPI + SQLite).
 
 🚀 Как запустить
-git clone https://github.com/<your_username>/incidents_api.git
+git clone https://github.com/tuvasco/incidents_api.git
 cd incidents_api
 python -m venv venv
 source venv/bin/activate     # Windows: venv\Scripts\activate
@@ -39,3 +39,4 @@ PATCH /incidents/1
 
 📄 База данных создаётся автоматически (SQLite).
 Статусы: new, in_progress, resolved, closed.
+
